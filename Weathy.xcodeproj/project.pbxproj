@@ -39,6 +39,7 @@
 		4E79E1C12B141CC60068B9C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4E79E1C42B1424480068B9C6 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		4E79E1C62B1425FD0068B9C6 /* WeatherElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherElements.swift; sourceTree = "<group>"; };
+		4EF337C12B8E343B00A7809C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				4E3953422B13C7C4007E8BCE /* Assets.xcassets */,
 				4E3953442B13C7C4007E8BCE /* Preview Content */,
 				4E79E1C12B141CC60068B9C6 /* Extensions.swift */,
+				4EF337C12B8E343B00A7809C /* Config.xcconfig */,
 			);
 			path = Weathy;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 /* Begin XCBuildConfiguration section */
 		4E3953472B13C7C4007E8BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF337C12B8E343B00A7809C /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -339,6 +342,8 @@
 				DEVELOPMENT_TEAM = 385M435SA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weathy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,6 +374,8 @@
 				DEVELOPMENT_TEAM = 385M435SA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weathy/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
